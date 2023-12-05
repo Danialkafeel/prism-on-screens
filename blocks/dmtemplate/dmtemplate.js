@@ -5,7 +5,7 @@ export default async function decorate(block) {
   const templateDiv = column.firstElementChild;
   column.setAttribute('style', 'display:none');
   const templateName = templateDiv.innerText;
-  const imageName = `/dmtemplate/${templateName}`;
+  const imageName = `/is/image/${templateName}`;
   const img = createOptimizedPicture(imageName);
   block.appendChild(img);
 }
