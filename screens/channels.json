@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/prismonscreens.manifest.json",
-      "lastModified": "2023-12-06T07:17:48.294Z",
+      "lastModified": "2023-12-06T07:17:52.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -12,6 +12,19 @@
       "externalId": "/content/screens/prismonscreens",
       "title": "Image template",
       "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/prismonscreens.html"
+    },
+    {
+      "manifestPath": "/content/screens/welcomechannel.manifest.json",
+      "lastModified": "2023-12-06T07:22:23.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        }
+      ],
+      "externalId": "/content/screens/welcomechannel",
+      "title": "Welcome",
+      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/welcomechannel.html"
     }
   ],
   "metadata": {

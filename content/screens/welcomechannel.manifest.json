@@ -1,0 +1,31 @@
+{
+  "version": "3.0",
+  "timestamp": 1701847343000,
+  "entries": [
+    {
+      "path": "/content/screens/welcomechannel.html",
+      "timestamp": 1701847343000
+    },
+    {
+      "path": "/scripts/lib-franklin.js",
+      "timestamp": 1701785537000
+    },
+    {
+      "path": "/scripts/scripts.js",
+      "timestamp": 1701785537000
+    },
+    {
+      "path": "/styles/styles.css",
+      "timestamp": 1701785537000
+    }
+  ],
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  }
+}
