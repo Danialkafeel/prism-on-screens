@@ -1,0 +1,20 @@
+{
+  "channels": [
+    {
+      "manifestPath": "/content/screens/prismonscreens.manifest.json",
+      "lastModified": "2023-12-06T07:17:48.294Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        }
+      ],
+      "externalId": "/content/screens/prismonscreens",
+      "title": "Image template",
+      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/prismonscreens.html"
+    }
+  ],
+  "metadata": {
+    "providerType": "franklin"
+  }
+}

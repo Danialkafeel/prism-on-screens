@@ -1,0 +1,39 @@
+{
+  "version": "3.0",
+  "timestamp": 1701847068294,
+  "entries": [
+    {
+      "path": "/content/screens/prismonscreens.html",
+      "timestamp": 1701847068294
+    },
+    {
+      "path": "/scripts/lib-franklin.js",
+      "timestamp": 1701785537000
+    },
+    {
+      "path": "/scripts/scripts.js",
+      "timestamp": 1701785537000
+    },
+    {
+      "path": "/styles/styles.css",
+      "timestamp": 1701785537000
+    },
+    {
+      "path": "/blocks/dmtemplate/dmtemplate.js",
+      "timestamp": 1701802943000
+    },
+    {
+      "path": "/blocks/dmtemplate/dmtemplate.css",
+      "timestamp": 1701801830000
+    }
+  ],
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  }
+}
