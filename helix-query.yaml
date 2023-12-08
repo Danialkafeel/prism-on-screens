@@ -69,3 +69,7 @@ indices:
         select: head > meta[name="background"]
         value:  |
           attribute(el, 'content')
+      fragments:
+        select: body .fragment a
+        values: |
+          attribute(el, 'href')
