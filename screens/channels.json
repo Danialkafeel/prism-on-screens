@@ -40,8 +40,8 @@
         }
       ],
       "externalId": "/content/screens/GarageWeek/adobeprism",
-      "title": "Carousel",
-      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/adobeprism.html"
+      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/adobeprism",
+      "title": ""
     },
     {
       "manifestPath": "/content/screens/GarageWeek/adobeprismchannel.manifest.json",
