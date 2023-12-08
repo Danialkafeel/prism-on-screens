@@ -13,10 +13,6 @@ import {
   decorateBlock,
 } from './lib-franklin.js';
 
-import {
-  buildCaraouselBlock
-} from './lib-autoblocks.js'
-
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
 /**
