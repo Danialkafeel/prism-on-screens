@@ -33,6 +33,22 @@
     {
       "path": "/blocks/fragment/fragment.js",
       "timestamp": 1702031006000
+    },
+    {
+      "path": "/content/screens/assets.html",
+      "timestamp": 1702037756000
+    },
+    {
+      "path": "/content/screens/GarageWeek/media_1961ed9be106ee5c1611a5d4dedf47ec59a865c8f.png",
+      "hash": "1961ed9be106ee5c1611a5d4dedf47ec59a865c8f"
+    },
+    {
+      "path": "/content/screens/GarageWeek/media_1e94b7ab1f810eef34be7768e2a6eb3ce171e1329.jpeg",
+      "hash": "1e94b7ab1f810eef34be7768e2a6eb3ce171e1329"
+    },
+    {
+      "path": "/content/screens/assets.plain.html",
+      "timestamp": 1702037572000
     }
   ],
   "contentDelivery": {
