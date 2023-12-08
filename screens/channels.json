@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/prismonscreens.manifest.json",
-      "lastModified": "2023-12-08T09:59:04.953Z",
+      "lastModified": "2023-12-08T10:23:26.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -12,6 +12,36 @@
       "externalId": "/content/screens/prismonscreens",
       "title": "Image template",
       "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/prismonscreens.html"
+    },
+    {
+      "manifestPath": "/content/screens/assets.manifest.json",
+      "lastModified": "2023-12-08T10:23:26.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        }
+      ],
+      "externalId": "/content/screens/assets",
+      "title": "",
+      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/assets.html"
+    },
+    {
+      "manifestPath": "/content/screens/GarageWeek/adobeprism.manifest.json",
+      "lastModified": "2023-12-08T10:34:44.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "GarageWeek",
+          "path": "/content/screens/GarageWeek"
+        }
+      ],
+      "externalId": "/content/screens/GarageWeek/adobeprism",
+      "title": "Carousel",
+      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/adobeprism.html"
     }
   ],
   "metadata": {

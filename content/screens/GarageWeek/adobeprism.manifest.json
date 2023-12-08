@@ -1,0 +1,31 @@
+{
+  "version": "3.0",
+  "timestamp": 1702031684000,
+  "entries": [
+    {
+      "path": "/content/screens/GarageWeek/adobeprism.html",
+      "timestamp": 1702031684000
+    },
+    {
+      "path": "/scripts/lib-franklin.js",
+      "timestamp": 1701886039000
+    },
+    {
+      "path": "/scripts/scripts.js",
+      "timestamp": 1702031006000
+    },
+    {
+      "path": "/styles/styles.css",
+      "timestamp": 1701886039000
+    }
+  ],
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  }
+}
