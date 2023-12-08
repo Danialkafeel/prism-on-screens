@@ -42,6 +42,23 @@
       "externalId": "/content/screens/GarageWeek/adobeprism",
       "title": "Carousel",
       "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/adobeprism.html"
+    },
+    {
+      "manifestPath": "/content/screens/GarageWeek/adobeprismchannel.manifest.json",
+      "lastModified": "2023-12-08T10:45:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "GarageWeek",
+          "path": "/content/screens/GarageWeek"
+        }
+      ],
+      "externalId": "/content/screens/GarageWeek/adobeprismchannel",
+      "title": "AdobePrismChannel",
+      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/adobeprismchannel.html"
     }
   ],
   "metadata": {
