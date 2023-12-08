@@ -17,6 +17,22 @@
     {
       "path": "/styles/styles.css",
       "timestamp": 1701886039000
+    },
+    {
+      "path": "/blocks/carousel/carousel.css",
+      "timestamp": 1702031006000
+    },
+    {
+      "path": "/blocks/carousel/carousel.js",
+      "timestamp": 1702031006000
+    },
+    {
+      "path": "/blocks/fragment/fragment.css",
+      "timestamp": 1702031006000
+    },
+    {
+      "path": "/blocks/fragment/fragment.js",
+      "timestamp": 1702031006000
     }
   ],
   "contentDelivery": {
