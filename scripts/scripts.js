@@ -8,8 +8,14 @@ import {
   decorateTemplateAndTheme,
   waitForLCP,
   loadBlocks,
+  loadBlock,
   loadCSS,
+  getMetadata,
 } from './lib-franklin.js';
+
+import {
+  buildCaraouselBlock
+} from './lib-autoblocks.js'
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 
@@ -93,6 +99,17 @@ export function addFavIcon(href) {
  */
 async function loadLazy(doc) {
   const main = doc.querySelector('main');
+  const template = getMetadata('template');
+  switch (template) {
+    case 'carousel':
+      await loadBlocks(main);
+      await buildCaraouselBlock(main);
+      break;
+    default:
+      console.log(`Unexpected template: ${template}`);
+      break;
+  }
+
   await loadBlocks(main);
 
   const { hash } = window.location;

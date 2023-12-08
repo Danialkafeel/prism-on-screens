@@ -1,2 +1,4 @@
 helix-importer-ui
 /blocks/menutable/qrcode.min.js
+/scripts/*
+/blocks/*
