@@ -1,33 +1,22 @@
 {
   "version": "3.0",
-  "timestamp": 1701886028602,
+  "timestamp": 1702029291337,
   "entries": [
     {
       "path": "/content/screens/prismonscreens.html",
-      "timestamp": 1701886028602
+      "timestamp": 1702029291337
     },
     {
       "path": "/scripts/lib-franklin.js",
-      "timestamp": 1701785537000
+      "timestamp": 1701886039000
     },
     {
       "path": "/scripts/scripts.js",
-      "timestamp": 1701785537000
+      "timestamp": 1701886039000
     },
     {
       "path": "/styles/styles.css",
-      "timestamp": 1701785537000
-    },
-    {
-      "path": "/blocks/dmtemplate/dmtemplate.js",
-      "timestamp": 1701802943000
-    },
-    {
-      "path": "/is/image/pmodiCo/Welcome"
-    },
-    {
-      "path": "/blocks/dmtemplate/dmtemplate.css",
-      "timestamp": 1701801830000
+      "timestamp": 1701886039000
     }
   ],
   "contentDelivery": {
