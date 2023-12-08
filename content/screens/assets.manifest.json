@@ -3,8 +3,8 @@
   "timestamp": 1702031006000,
   "entries": [
     {
-      "path": "/content/screens/prismonscreens.html",
-      "timestamp": 1702029552000
+      "path": "/content/screens/assets.html",
+      "timestamp": 1702030057000
     },
     {
       "path": "/scripts/lib-franklin.js",
@@ -19,15 +19,12 @@
       "timestamp": 1701886039000
     },
     {
-      "path": "/blocks/dmtemplate/dmtemplate.js",
-      "timestamp": 1701886037000
+      "path": "/content/screens/media_1961ed9be106ee5c1611a5d4dedf47ec59a865c8f.png",
+      "hash": "1961ed9be106ee5c1611a5d4dedf47ec59a865c8f"
     },
     {
-      "path": "/is/image/pmodiCo/Welcome"
-    },
-    {
-      "path": "/blocks/dmtemplate/dmtemplate.css",
-      "timestamp": 1701886037000
+      "path": "/content/screens/media_1e94b7ab1f810eef34be7768e2a6eb3ce171e1329.jpeg",
+      "hash": "1e94b7ab1f810eef34be7768e2a6eb3ce171e1329"
     }
   ],
   "contentDelivery": {
