@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/prismonscreens.manifest.json",
-      "lastModified": "2023-12-08T12:15:48.072Z",
+      "lastModified": "2023-12-08T12:17:31.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -15,7 +15,7 @@
     },
     {
       "manifestPath": "/content/screens/assets.manifest.json",
-      "lastModified": "2023-12-08T12:15:48.772Z",
+      "lastModified": "2023-12-08T12:17:31.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -28,7 +28,7 @@
     },
     {
       "manifestPath": "/content/screens/GarageWeek/adobeprism.manifest.json",
-      "lastModified": "2023-12-08T12:15:49.111Z",
+      "lastModified": "2023-12-08T12:17:31.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -45,7 +45,7 @@
     },
     {
       "manifestPath": "/content/screens/GarageWeek/adobeprismchannel.manifest.json",
-      "lastModified": "2023-12-08T12:15:49.232Z",
+      "lastModified": "2023-12-08T12:17:31.000Z",
       "hierarchy": [
         {
           "title": "screens",
