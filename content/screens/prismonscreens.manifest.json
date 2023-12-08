@@ -1,10 +1,10 @@
 {
   "version": "3.0",
-  "timestamp": 1702029291337,
+  "timestamp": 1702029544953,
   "entries": [
     {
       "path": "/content/screens/prismonscreens.html",
-      "timestamp": 1702029291337
+      "timestamp": 1702029544953
     },
     {
       "path": "/scripts/lib-franklin.js",
@@ -17,6 +17,17 @@
     {
       "path": "/styles/styles.css",
       "timestamp": 1701886039000
+    },
+    {
+      "path": "/blocks/dmtemplate/dmtemplate.js",
+      "timestamp": 1701886037000
+    },
+    {
+      "path": "/is/image/pmodiCo/Welcome"
+    },
+    {
+      "path": "/blocks/dmtemplate/dmtemplate.css",
+      "timestamp": 1701886037000
     }
   ],
   "contentDelivery": {
