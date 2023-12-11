@@ -1,5 +1,4 @@
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
-​
 export default async function decorate(block) {
 ​
   block.setAttribute('data-item-length', block.children.length);
@@ -26,7 +25,8 @@ export default async function decorate(block) {
     row.setAttribute('data-item-duration', DEFAULT_DISPLAY_DURATION);
     row.setAttribute('data-type', 'image');
     row.appendChild(img);
-​
+​  });
+  
   displayNextVisibleItem();
 ​
   function displayNextVisibleItem() {
@@ -60,5 +60,4 @@ export default async function decorate(block) {
       }
       return visibleItem;
   }
-  });
 }
