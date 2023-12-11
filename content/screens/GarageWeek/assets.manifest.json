@@ -1,0 +1,35 @@
+{
+  "version": "3.0",
+  "timestamp": 1702281035742,
+  "entries": [
+    {
+      "path": "/content/screens/GarageWeek/assets.html",
+      "timestamp": 1702281035742
+    },
+    {
+      "path": "/scripts/lib-franklin.js",
+      "timestamp": 1701886039000
+    },
+    {
+      "path": "/scripts/scripts.js",
+      "timestamp": 1702037851000
+    },
+    {
+      "path": "/styles/styles.css",
+      "timestamp": 1701886039000
+    },
+    {
+      "path": "/content/screens/GarageWeek/media_17d29c2592dad75ea4f869388fc7149b3d7188670.jpeg",
+      "hash": "17d29c2592dad75ea4f869388fc7149b3d7188670"
+    }
+  ],
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  }
+}
