@@ -15,9 +15,8 @@ export default class HtmlGenerator {
       await ensureDir(p.dirname(path));
       await outputFile(`${path}.html`, $.html());
       additionalAssets.push('/blocks/dmtemplate/dmtemplate.js');
-      const dmtemplatename = $('.dmtemplate').text().trim();
-      console.log(`dmtemplatename: ${dmtemplatename}`);
-      additionalAssets.push(`/is/image/${dmtemplatename}`);
+      additionalAssets.push(`/is/image/pmodiCo/WelcomePage`);
+      additionalAssets.push(`/is/image/pmodiCo/OfficeSite`);
       additionalAssets.push('/blocks/dmtemplate/dmtemplate.css');
     } catch (error) {
       console.error(error);
