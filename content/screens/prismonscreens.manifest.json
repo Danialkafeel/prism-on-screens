@@ -1,10 +1,10 @@
 {
   "version": "3.0",
-  "timestamp": 1702298764418,
+  "timestamp": 1702299938641,
   "entries": [
     {
       "path": "/content/screens/prismonscreens.html",
-      "timestamp": 1702298764418
+      "timestamp": 1702299938641
     },
     {
       "path": "/scripts/lib-franklin.js",
@@ -17,6 +17,14 @@
     {
       "path": "/styles/styles.css",
       "timestamp": 1701886039000
+    },
+    {
+      "path": "/content/screens/media_1253721c15a39713fadf59adbe711b563e23df597.jpeg",
+      "hash": "1253721c15a39713fadf59adbe711b563e23df597"
+    },
+    {
+      "path": "/content/screens/media_194b2b408989e0bae39b1a74f58ee6ac1052d41c0.png",
+      "hash": "194b2b408989e0bae39b1a74f58ee6ac1052d41c0"
     },
     {
       "path": "/blocks/dmtemplate/dmtemplate.js",
