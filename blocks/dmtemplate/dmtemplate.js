@@ -20,9 +20,11 @@ export default async function decorate(block) {
     row.setAttribute('data-item-duration', DEFAULT_DISPLAY_DURATION);
     row.setAttribute('data-type', 'image');
     row.appendChild(img);
-​  });  
-  displayNextVisibleItem();​
-  function displayNextVisibleItem() {
+ });  
+
+ displayNextVisibleItem();
+  
+ function displayNextVisibleItem() {
       if (block.children.length <= 0) {
           return;
       }
@@ -38,7 +40,7 @@ export default async function decorate(block) {
           }, duration);
       }
   }
-​
+  
   function findNextVisibleItem() {
       let visibleItem = [...block.children].find((row) => row.getAttribute('style') === 'display:block');
       if (visibleItem) {
