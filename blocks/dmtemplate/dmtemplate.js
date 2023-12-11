@@ -1,34 +1,27 @@
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 export default async function decorate(block) {
-​
   block.setAttribute('data-item-length', block.children.length);
   [...block.children].forEach(row => {
-    const DEFAULT_DISPLAY_DURATION = 5000;//5 ms
-    
+    const DEFAULT_DISPLAY_DURATION = 5000;//5 ms 
     let rowId = 0;
     row.setAttribute('style', 'display:none');
-    row.setAttribute('data-item-id', ++rowId);
-    
+    row.setAttribute('data-item-id', ++rowId);    
     const columns = [...row.children];
     columns[0].setAttribute('style', 'display:none');
-    columns[1].setAttribute('style', 'display:none');
-    
+    columns[1].setAttribute('style', 'display:none');    
     let templateName = columns[1]?.firstElementChild?.innerText;
     console.log(`dhaval ${templateName}`);
     if (!templateName) {
       templateName = 'pmodiCo/WelcomePage';
     }
-​
     const imageName = `/is/image/${templateName}`;
     const img = createOptimizedPicture(imageName);
     
     row.setAttribute('data-item-duration', DEFAULT_DISPLAY_DURATION);
     row.setAttribute('data-type', 'image');
     row.appendChild(img);
-​  });
-  
-  displayNextVisibleItem();
-​
+​  });  
+  displayNextVisibleItem();​
   function displayNextVisibleItem() {
       if (block.children.length <= 0) {
           return;
