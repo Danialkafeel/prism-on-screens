@@ -14,7 +14,7 @@ export default async function decorate(block) {
     columns[0].setAttribute('style', 'display:none');
     columns[1].setAttribute('style', 'display:none');    
   
-    let templateName = columns[1]?.firstElementChild?.innerText;
+    let templateName = columns[1]?.innerText;
   
     if (!templateName) {
       templateName = 'pmodiCo/WelcomePage';
