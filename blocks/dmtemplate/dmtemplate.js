@@ -9,6 +9,8 @@ export default async function decorate(block) {
   
     row.setAttribute('style', 'display:none');
     row.setAttribute('data-item-id', ++rowId);    
+    row.setAttribute('data-item-duration', DEFAULT_DISPLAY_DURATION);
+    row.setAttribute('data-type', 'image');
   
     const columns = [...row.children];
     columns[1].setAttribute('style', 'display:none');    
@@ -18,9 +20,6 @@ export default async function decorate(block) {
         columns[0].setAttribute('style', 'display:none');
         const imageName = `/is/image/${templateName}`;
         const img = createOptimizedPicture(imageName);
-      
-        row.setAttribute('data-item-duration', DEFAULT_DISPLAY_DURATION);
-        row.setAttribute('data-type', 'image');
         row.appendChild(img);
     }
  });  
