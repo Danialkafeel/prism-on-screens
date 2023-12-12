@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "timestamp": 1702037851000,
+  "timestamp": 1702353096000,
   "entries": [
     {
       "path": "/content/screens/assets.html",
@@ -12,7 +12,7 @@
     },
     {
       "path": "/scripts/scripts.js",
-      "timestamp": 1702037851000
+      "timestamp": 1702353096000
     },
     {
       "path": "/styles/styles.css",
