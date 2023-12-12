@@ -11,21 +11,18 @@ export default async function decorate(block) {
     row.setAttribute('data-item-id', ++rowId);    
   
     const columns = [...row.children];
-    columns[0].setAttribute('style', 'display:none');
     columns[1].setAttribute('style', 'display:none');    
   
     let templateName = columns[1]?.innerText;
-    // default template is welcome page
-    if (!templateName) {
-      templateName = 'pmodiCo/WelcomePage';
+    if (templateName) {
+        columns[0].setAttribute('style', 'display:none');
+        const imageName = `/is/image/${templateName}`;
+        const img = createOptimizedPicture(imageName);
+      
+        row.setAttribute('data-item-duration', DEFAULT_DISPLAY_DURATION);
+        row.setAttribute('data-type', 'image');
+        row.appendChild(img);
     }
-  
-    const imageName = `/is/image/${templateName}`;
-    const img = createOptimizedPicture(imageName);
-    
-    row.setAttribute('data-item-duration', DEFAULT_DISPLAY_DURATION);
-    row.setAttribute('data-type', 'image');
-    row.appendChild(img);
  });  
 
  displayNextVisibleItem();
