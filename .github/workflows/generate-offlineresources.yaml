@@ -20,8 +20,8 @@ jobs:
       - run: |
           echo "Status: ${{ github.event.client_payload.status }}"
           echo "Path: ${{ github.event.client_payload.path }}"
-      - name: Sleep for 90 seconds assuming helix index will be updated before
-        run: sleep 10s
+      - name: Sleep for 30 seconds assuming helix index will be updated before
+        run: sleep 30s
         shell: bash
       - name: Use Node.js
         uses: actions/setup-node@v3
