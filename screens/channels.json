@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/prismonscreens.manifest.json",
-      "lastModified": "2023-12-08T12:17:31.000Z",
+      "lastModified": "2023-12-15T12:55:49.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -12,104 +12,6 @@
       "externalId": "/content/screens/prismonscreens",
       "title": "Image template",
       "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/prismonscreens.html"
-    },
-    {
-      "manifestPath": "/content/screens/assets.manifest.json",
-      "lastModified": "2023-12-08T12:17:31.000Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        }
-      ],
-      "externalId": "/content/screens/assets",
-      "title": "",
-      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/assets.html"
-    },
-    {
-      "manifestPath": "/content/screens/GarageWeek/adobeprism.manifest.json",
-      "lastModified": "2023-12-08T12:17:31.000Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "GarageWeek",
-          "path": "/content/screens/GarageWeek"
-        }
-      ],
-      "externalId": "/content/screens/GarageWeek/adobeprism",
-      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/adobeprism",
-      "title": ""
-    },
-    {
-      "manifestPath": "/content/screens/GarageWeek/adobeprismchannel.manifest.json",
-      "lastModified": "2023-12-08T12:17:31.000Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "GarageWeek",
-          "path": "/content/screens/GarageWeek"
-        }
-      ],
-      "externalId": "/content/screens/GarageWeek/adobeprismchannel",
-      "title": "AdobePrismChannel",
-      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/adobeprismchannel.html"
-    },
-    {
-      "manifestPath": "/content/screens/GarageWeek/dhavkuma-channel.manifest.json",
-      "lastModified": "2023-12-08T16:35:25.000Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "GarageWeek",
-          "path": "/content/screens/GarageWeek"
-        }
-      ],
-      "externalId": "/content/screens/GarageWeek/dhavkuma-channel",
-      "title": "DhavKuma Channel",
-      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/dhavkuma-channel.html"
-    },
-    {
-      "manifestPath": "/content/screens/GarageWeek/assets1.manifest.json",
-      "lastModified": "2023-12-08T17:03:40.000Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "GarageWeek",
-          "path": "/content/screens/GarageWeek"
-        }
-      ],
-      "externalId": "/content/screens/GarageWeek/assets1",
-      "title": "",
-      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/assets1.html"
-    },
-    {
-      "manifestPath": "/content/screens/GarageWeek/assets.manifest.json",
-      "lastModified": "2023-12-11T07:50:35.742Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "GarageWeek",
-          "path": "/content/screens/GarageWeek"
-        }
-      ],
-      "externalId": "/content/screens/GarageWeek/assets",
-      "title": "",
-      "liveUrl": "https://prismonscreens.aem-screens.net/content/screens/GarageWeek/assets.html"
     }
   ],
   "metadata": {
