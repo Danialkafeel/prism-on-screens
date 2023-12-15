@@ -13,12 +13,11 @@ export default class HtmlGenerator {
       const franklinString = await getFranklinMarkup(host, path);
       const $ = load(franklinString);
       const dmtemplateAssets = $('div.dmtemplate');
-      for (const dmtemplateAsset of dmtemplateAssets) {
-        // check second child div of dmtemplateAsset
-        const dmtemplateAssetChild = dmtemplateAsset.children[1];
-        console.log('dmtemplateAssetChild', dmtemplateAssetChild.innerHTML);
-        if (dmtemplateAssetChild.innerHTML !== ''){
-          additionalAssets.push(`/is/image/${dmtemplateAssetChild.innerHTML}`);
+      for (const dmtemplateAsset of dmtemplateAssets.children()) {
+        const dmtemplateAssetChild = $(dmtemplateAsset).children().eq(1);
+        console.log('dmtemplateAssetChild', dmtemplateAssetChild.text().trim());
+        if (dmtemplateAssetChild.text().trim() !== ''){
+          additionalAssets.push(`/is/image/${dmtemplateAssetChild.text().trim()}`);
         }
       }
       await ensureDir(p.dirname(path));
