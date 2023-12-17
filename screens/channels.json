@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/prismonscreens.manifest.json",
-      "lastModified": "2023-12-15T16:31:40.672Z",
+      "lastModified": "2023-12-15T16:31:49.000Z",
       "hierarchy": [
         {
           "title": "screens",
